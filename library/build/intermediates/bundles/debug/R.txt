@@ -1,0 +1,3 @@
+int attr parallexOffset 0x7f010000
+int[] styleable ParallaxScrollView { 0x7f010000 }
+int styleable ParallaxScrollView_parallexOffset 0

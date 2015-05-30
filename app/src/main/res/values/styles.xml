@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme"
+        parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="pstsIndicatorHeight">3dp</item>
+        <item name="pstsIndicatorColor">@color/lightblue</item>
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/darkblue</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <style name="Meat" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:colorPrimary">@android:color/transparent</item>
+    </style>
+
+    <style name="Youtube" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/blue</item>
+    </style>
+
+    <style name="Setting" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/setting_grey</item>
+        <item name="colorPrimaryDark">@color/setting_darkgrey</item>
+    </style>
+
+
+</resources>
